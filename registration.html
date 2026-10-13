@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>ABC Engineering College - Student Registration</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Cambria, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+form{
+    width:60%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    }
+
+table{
+    width:100%;
+}
+
+td{
+    padding:10px;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:8px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    width:auto;
+}
+
+input[type=submit],
+input[type=reset]{
+    width:120px;
+    background:#003366;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>ABC Engineering College</h1>
+
+<h2>Student Registration Form</h2>
+
+</header>
+
+<form>
+
+<table>
+
+<tr>
+<td>Full Name</td>
+<td><input type="text" placeholder="Enter Full Name" required></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" placeholder="Enter Password" required></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="abc@gmail.com" required></td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="tel" placeholder="9876543210" required></td>
+</tr>
+
+<tr>
+<td>Age</td>
+<td><input type="number" min="17" max="30"></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>
+<select required>
+<option value="">Select Department</option>
+<option>Computer Engineering</option>
+<option>Information Technology</option>
+<option>Mechanical Engineering</option>
+<option>Civil Engineering</option>
+<option>Electronics Engineering</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Semester</td>
+<td>
+<select>
+<option>I</option>
+<option>II</option>
+<option>III</option>
+<option>IV</option>
+<option>V</option>
+<option>VI</option>
+<option>VII</option>
+<option>VIII</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Skills</td>
+<td>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JavaScript
+<input type="checkbox"> Python
+</td>
+</tr>
+
+<tr>
+<td>Favourite Color</td>
+<td><input type="color"></td>
+</tr>
+
+<tr>
+<td>Programming Skill Level</td>
+<td><input type="range" min="0" max="100"></td>
+</tr>
+
+<tr>
+<td>Preferred Time</td>
+<td><input type="time"></td>
+</tr>
+
+<tr>
+<td>Personal Website</td>
+<td><input type="url" placeholder="https://example.com"></td>
+</tr>
+
+<tr>
+<td>Search Course</td>
+<td><input type="search" placeholder="Search Course"></td>
+</tr>
+
+<tr>
+<td>Upload Photo</td>
+<td><input type="file"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="4" placeholder="Enter Address"></textarea>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+<footer>
+
+<h3>ABC Engineering College</h3>
+
+<p>Email : info@abcenggcollege.edu.in</p>
+
+<p>Phone : +91 9876543210</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
